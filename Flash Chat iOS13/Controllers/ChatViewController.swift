@@ -13,6 +13,7 @@ class ChatViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var messageTextfield: UITextField!
+    @IBOutlet weak var messageTextFieldContainer: UIView!
     
     let db = Firestore.firestore()
     let fetchingMessages = FetchingMessages()
@@ -27,6 +28,7 @@ class ChatViewController: UIViewController {
         tableView.delegate = self
         title = K.appName
         navigationItem.hidesBackButton = true
+        messageTextFieldContainer.layer.cornerRadius = messageTextfield.frame.size.height / 2.5
         
         tableView.register(UINib(nibName: K.cellNibName, bundle: nil), forCellReuseIdentifier: K.cellIdentifier)
         tableView.register(UINib(nibName: "TableSectionHeader", bundle: nil), forHeaderFooterViewReuseIdentifier: "TableSectionHeader")
