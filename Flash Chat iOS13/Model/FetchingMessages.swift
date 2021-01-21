@@ -13,7 +13,6 @@ class FetchingMessages {
     
     let db = Firestore.firestore()
     
-    //    var messages: [Message] = []
     var chatMessages = [[Message]]()
     
     func loadMessages(completion: @escaping ([[Message]]) -> ()) {

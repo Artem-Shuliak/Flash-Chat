@@ -2,13 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/artemshuliak/Desktop/SWIFT /Flash-Chat-iOS13/FetchingMessages.swift">
-   </FileRef>
-   <Group
-      location = "container:"
-      name = "Model">
-   </Group>
-   <FileRef
       location = "group:Flash Chat iOS13.xcodeproj">
    </FileRef>
    <FileRef
