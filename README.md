@@ -1,6 +1,8 @@
 
 # Flash-Chat
 
+![](images/app-mockup.png)
+
 ## Our Goal
 
 Flash Chat is an internet based messaging app similar to WhatsApp, I am using a service called Firebase Firestore as a backend database to store and retrieve our messages from the cloud. 
